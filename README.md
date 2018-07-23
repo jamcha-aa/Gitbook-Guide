@@ -1,2 +1,2 @@
-# Gitbook-Guide
-GitHubでGitBookの文章を公開する試み
+# GitBookで始めるGitHubノベル
+GitHubでGitBookの文章を公開する試み。
