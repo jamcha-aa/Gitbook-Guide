@@ -1,3 +1,4 @@
 * [GitBookでGitHubと遊ぶ](README.md)
 
 - [01 - 嵐の前触れ](01.md)
+- [02 - Love と Happy](02.md)
