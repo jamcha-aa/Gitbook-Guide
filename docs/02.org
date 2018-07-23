@@ -1,0 +1,80 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: \n:t
+
+* 02 - Love と Happy
+
+  「それじゃあリポジトリを作ろうか」私はブラウザにマウスを向ける。「うむ」
+
+  <br>
+  「できたよ。次はnpmを…」「ちょっと待て」EeePCがあわてて止める。「なに」「そこは省略したらだめだろう」「どうして」「結果だけ伝えるのは説明じゃないからだ」「そうかな」「そうだ。ちゃんと説明するって言ったんだからな」
+
+  私は両手で頭を覆い，苦悶のうめき声をあげる。「なんだ」「め，めんどうくさい…」「まだ始まったばかりだろう。ほら，がんばれ」「君はそうやってダメ出しするだけだから楽だろうけどさぁ」「そんなにGitBookは面倒なのか？」私は顔を振る。「説明の画像作るのが面倒なの」「それじゃあ動画で説明すればいい」「君のスペックじゃ無理でしょ」「それもそうだ」
+
+  <br>
+  ![[./images/01.png][new-repository]]
+
+  <br>
+  ![[./images/02.png][plane-repository]]
+
+  <br>
+  「おい」またもEeePCが止める。「少しは話せ」「えぇー」「えぇーじゃないだろう」「だって写真あったら説明文なんて誰も読まないでしょ」「読まないのか？」「読まないよ」「そうか」「うん」「でも話さなきゃだめだ」「チッ…」「おい」「」「おい，今舌打ちしただろう」「してません」「はっきりと聞こえたぞ。はぁ，まったく，先が思いやられる」「ほんと困ったもんです」「お前に言ってるんだよ」
+
+  <br>
+  <br>
+  ![[./images/03.png][filled-repository]]
+
+  <br>
+  「こんなもんかな」「うむ」私は内容を確認すると "Create repository" をクリックした。Gitbook-Guideという名のリポジトリが作成される。
+
+  <br>
+  ![[./images/04.png][created-repository]]
+
+  <br>
+  「それじゃあこれを自分のパソコンにcloneしようか」私はemacsで次のコマンドを打った。
+
+  #+BEGIN_SRC 
+  M-x term
+  #+END_SRC
+
+  「M-x shellじゃないのか？」EeePCが聞く。「shellだとパスワードが丸見えになる」「oh...」
+
+  #+BEGIN_SRC 
+  git clone git@github.com:jamcha-aa/Gitbook-Guide.git
+  #+END_SRC
+
+  <br>
+  ![[./images/05.png][git-clone]]
+
+  cloneが済んだ私は次のWebページを開いた。
+
+  [[http://mizukami234.hateblo.jp/entry/github-pages-gitbook-katex-example][GitHub Pages + GitBook + KaTeXで数式があるドキュメントをいい感じに作る方法]]
+
+  「あとはこの通りにすれば作れる」「待て。そんな手抜きは許さん」「だってわかりやすいんだもん」「それはそうかもしれないが，『気づき』を残すことが重要なんだ。わかるな？」「…」「ほら，手を動かす」
+
+  EeePCに急かされるままに私はターミナルでnpmのインストールを始める。
+
+  #+BEGIN_SRC 
+  $ sudo apt install npm
+  #+END_SRC
+
+  「それにしても私がNode.jsを直接使うことになるなんて思わなかったなあ」感慨深げな私にEeePCがたずねる。「GitHubに登録していてJavaScriptを触ったことない者などいるのか？」「私はその最後の一人になりたかった」「ふむ。インストールが終わったぞ」
+
+  そのまま私はGitBookのインストールに入った。
+
+  #+BEGIN_SRC 
+  $ sudo npm install -g gitbook-cli
+  #+END_SRC
+
+  「ところでどうしてGitBookなんだ？」EeePCが聞く。
+
+  「うーん…」私は考え込む。「最初に目にとまったとか，GitBook.comがGitHubと連携できたとか，いろいろあるけど…」「けど，何だ」「今はトップページにloveとかmake your users happyとか書いてあるのがかっこいいからかな」「そ，そうか…」
+
+  「不安になるとついつい忘れがちになっちゃうんだけど，でも忘れちゃいけないことだと思う。だからそれを思い出させてくれるGitBookが好き」
+
+  「そうだな」EeePCはつぶやくように言った。「スポーツの勝敗で一喜一憂するような君の場合は特に大切だ」「ちょっと，せっかくいいこと言ったのに」「君が観戦中にどれほどひどいことを言っているか」「はい!インストール終わりました!スイッチ切りまーす続きはこんど!」
+
+  <br>
+  <br>
+  (c) 2018 jamcha (jamcha.aa@gmail.com).
+
+  ![[https://i.creativecommons.org/l/by-sa/4.0/88x31.png][cc by-sa]]
