@@ -42,14 +42,16 @@
   git clone git@github.com:jamcha-aa/Gitbook-Guide.git
   #+END_SRC
 
-  <br>
   ![[./images/05.png][git-clone]]
 
+  <br>
   cloneが済んだ私は次のWebページを開いた。
 
   [[http://mizukami234.hateblo.jp/entry/github-pages-gitbook-katex-example][GitHub Pages + GitBook + KaTeXで数式があるドキュメントをいい感じに作る方法]]
 
-  「あとはこの通りにすれば作れる」「待て。そんな手抜きは許さん」「だってわかりやすいんだもん」「それはそうかもしれないが，『気づき』を残すことが重要なんだ。わかるな？」「…」「ほら，手を動かす」
+  「あとはこの通りにすれば作れる」そう言って私はひと仕事終えたように伸びをした。
+
+  「待て。そんな手抜きは許さん」「だってわかりやすいんだもん」「それはそうかもしれないが，『気づき』を残すことが重要なんだ。わかるな？」「…」「ほら，手を動かす」
 
   EeePCに急かされるままに私はターミナルでnpmのインストールを始める。
 
@@ -57,10 +59,11 @@
   $ sudo apt install npm
   #+END_SRC
 
-  「aptのnpmは古くなりがちだが」EeePCが釘をさす。「私に必要なのは新しさじゃなくて動くかどうかなんだけど」「今は動くかもしれないが，GitBookの開発は活発だからnpmを更新する方法くらいは知っておいたほうがいい」
+  「aptのnpmは古くなりがちだが」EeePCが釘をさす。「私に必要なのは新しさじゃなくて動くかどうかなんだけど」「今は動くかもしれないが，開発が活発なツールを使うならnpmを更新する方法くらいは知っておいたほうがいい」
 
   [[https://qiita.com/kerupani129/items/60ee8c8becc2fe9f0d28][とりあえず Ubuntu で新しい Node.js, npm をインストール]]
 
+  <br>
   続けて私はGitBookのインストールに入った。
 
   #+BEGIN_SRC 
