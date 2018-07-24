@@ -57,9 +57,11 @@
   $ sudo apt install npm
   #+END_SRC
 
-  「それにしても私がNode.jsを直接使うことになるなんて思わなかったなあ」感慨深げな私にEeePCがたずねる。「GitHubに登録していてJavaScriptを触ったことない者などいるのか？」「私はその最後の一人になりたかった」「ふむ。インストールが終わったぞ」
+  「aptのnpmは古くなりがちだが」EeePCが釘をさす。「私に必要なのは新しさじゃなくて動くかどうかなんだけど」「今は動くかもしれないが，GitBookの開発は活発だからnpmを更新する方法くらいは知っておいたほうがいい」
 
-  そのまま私はGitBookのインストールに入った。
+  [[https://qiita.com/kerupani129/items/60ee8c8becc2fe9f0d28][とりあえず Ubuntu で新しい Node.js, npm をインストール]]
+
+  続けて私はGitBookのインストールに入った。
 
   #+BEGIN_SRC 
   $ sudo npm install -g gitbook-cli
