@@ -1,0 +1,45 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: \n:t
+
+* 03 - 四種の神器
+
+  「これでもう必要なツールは揃ったのか？」EeePCが聞いてきた。「うん。あとはGitHubの仕様にあわせてファイルを作れば公開できる」「じゃあその方法を説明してもらおうか」
+
+  私はdiredでリポジトリを開いた。
+
+  <br>
+  ![[./images/06.png][dired-hide-details-mode]]
+
+  「前にcloneしたときはREADMEだけだったが」「アイテムが4つ増えてるでしょ」「うむ」「ひとつずつ説明していくね」
+
+** .gitignore
+
+   「これは飛ばしてもいいでしょ」「一応説明してもらおうか」「Gitに無視してほしいファイルをここに書く」「たとえば？」「秘密の日記とか」「そんなの書いているのか？」「書かないの？」「さあな」「中身はこんな感じ」
+
+   #+BEGIN_SRC 
+   node_modules
+   _book
+   #+END_SRC
+
+** .nojekyll
+
+   「これを入れないとGitHubがJekyllを読みこんじゃう」「Jekyllとはなんだ」「ブログツールみたいなものかな」「中身がカラだがいいのか？」「うん。.nojekyllって名前のファイルだけあればOK」
+
+** articleとdocs
+
+   「articleには原稿を入れてね」「docsは？」「原稿をGitBookにしたもの。GitBookが勝手に作ってくれる」「じゃあdocsは作らなくてもいいのか？」「ううん。初回に空のフォルダだけ作っておいて」「ふむ」
+
+   「あ，ひとつ補足なんだけど」「なんだ」「articleの名前は何でもいいよ。srcとか」「じゃあ何でarticleなんだ？」「TeXの名残りです」「特に意味はないんだな」「ねえ，人の話聞いてる？」
+
+   #+BEGIN_SRC 
+   README.md
+   SUMMARY.md
+   #+END_SRC
+
+   「おい，articleの中にもREADMEがあるぞ」「そう。そっちのREADMEが表紙になる」「上のフォルダにあるREADMEとは違うのか？」「一緒でもいいよ。SUMMARYは目次」
+
+  <br>
+  <br>
+  (c) 2018 jamcha (jamcha.aa@gmail.com).
+
+  ![[https://i.creativecommons.org/l/by-sa/4.0/88x31.png][cc by-sa]]
