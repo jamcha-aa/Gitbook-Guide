@@ -4,7 +4,7 @@
 
 <https://jamcha-aa.github.io/Gitbook-Guide>  
 
-GitHubでGitBookの文章を公開する試み。  
+GitHubでGitBookの文章を公開する試み。(全4話)  
 
 <br>  
 画面左上の「≡」で目次の表示/非表示ができます。  

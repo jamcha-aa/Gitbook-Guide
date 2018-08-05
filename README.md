@@ -1,5 +1,5 @@
 # GitBookでGitHubと遊ぶ
-GitHubでGitBookの文章を公開する試み。
+GitHubでGitBookの文章を公開する試み。(全4話)
 
 https://jamcha-aa.github.io/Gitbook-Guide
 
